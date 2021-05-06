@@ -1,8 +1,13 @@
 # Mask R-CNN for Object Detection and Segmentation
 
-## :: Notes on this fork ::
+## :: Notes on this fork :: NO LONGER ACTIVE ::
 ### Inspired and guided by https://blog.paperspace.com/mask-r-cnn-tensorflow-2-0-keras/
-* updated to work with TF 2.4.1 and keras 2.4.3
+* started updates to work with TF 2.4.1 and keras 2.4.3
+* discovered that others (unsurprisingly) had tried, such as [here](https://github.com/matterport/Mask_RCNN/pull/1896)
+* saw mentions of [detectron2](https://github.com/facebookresearch/detectron2)
+* moved forward with detectron2, no plans to continue updating this repo
+
+## Original README
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
